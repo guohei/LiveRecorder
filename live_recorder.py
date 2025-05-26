@@ -174,7 +174,7 @@ class LiveRecoder:
             output.open()
             recording[url] = (stream_fd, output)
             logger.info(f'{self.flag}正在录制：{filename}')
-            StreamRunner(stream_fd, output, show_progress=True).run(prebuffer)
+            StreamRunner(stream_fd, output).run(prebuffer)
             return True
         except Exception as error:
             if 'timeout' in str(error):
