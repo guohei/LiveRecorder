@@ -57,7 +57,7 @@
 
 ```shell
 # 下载源码（没有git可以直接从release下载Source code）
-git clone https://github.com/auqhjjqdo/LiveRecorder.git
+git clone https://github.com/guohei/LiveRecorder.git
 cd LiveRecorder
 # 安装依赖
 python3 -m pip install .
